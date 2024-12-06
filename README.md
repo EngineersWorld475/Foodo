@@ -27,30 +27,21 @@ A modern and responsive recipe application.
 
 ### Prerequisites
 #### Node.js installed on your system
+
 #### Installation
 #### Clone the repository:
-
-#### bash
-#### Copy code
-##### git clone https://github.com/your-username/foodo-app.git
+##### git clone https://github.com/your-username/foodo.git
 ##### cd foodo-app
+
 #### Install dependencies:
-
-##### bash
-#### Copy code
 ##### npm install
-#### Set up the mock server:
 
+#### Set up the mock server:
 #### Start JSON Server to serve the recipe data:
-##### bash
-#### Copy code
 ##### npm run start:server
 #### Run the application:
 ##### npm run dev
 #### Access the app in your browser:
-
-##### text
-##### Copy code
 ##### http://localhost:5173
 
 ## Usage
