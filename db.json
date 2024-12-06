@@ -1,0 +1,75 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "difficulty": "Intermediate",
+        "min": 25,
+        "kcal": 400,
+        "category": "Fish",
+        "rating":"https://img.freepik.com/premium-vector/rating-stars-icon-review-productinternet-website-mobile-application_182604-63.jpg",
+        "image": "https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Chicken Curry",
+        "difficulty": "Advanced",
+        "min": 30,
+        "kcal": 500,
+        "category": "Meat",
+        "rating": "https://img.freepik.com/premium-vector/rating-stars-icon-review-productinternet-website-mobile-application_182604-63.jpg",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?resize=768,574"
+      },
+      {
+        "id": 3,
+        "name": "Pastha with Spinach",
+        "difficulty": "Beginner",
+        "min": 40,
+        "kcal": 350,
+        "category": "Veg",
+        "rating": "https://img.freepik.com/premium-vector/rating-stars-icon-review-productinternet-website-mobile-application_182604-63.jpg",
+        "image": "https://static01.nyt.com/images/2021/04/19/dining/as-cheesy-baked-gnocchi/merlin_183955068_cea0bca3-39eb-4a57-a1ce-ba780b08af51-jumbo.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Cucumber salad",
+        "difficulty": "Advanced",
+        "min": 60,
+        "kcal": 700,
+        "category": "Veg",
+        "rating": "https://img.freepik.com/premium-vector/rating-stars-icon-review-productinternet-website-mobile-application_182604-63.jpg",
+        "image": "https://static01.nyt.com/images/2024/08/20/multimedia/hm-crispy-gnocchi-with-spinach-and-fetarex-wjzp/hm-crispy-gnocchi-with-spinach-and-fetarex-wjzp-mediumThreeByTwo440.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Masala tofu",
+        "difficulty": "Advanced",
+        "min": 20,
+        "kcal": 200,
+        "category": "Meat",
+        "rating": "https://img.freepik.com/premium-vector/rating-stars-icon-review-productinternet-website-mobile-application_182604-63.jpg",
+        "image": "https://static01.nyt.com/images/2024/08/20/multimedia/hm-crispy-gnocchi-with-spinach-and-fetarex-wjzp/hm-crispy-gnocchi-with-spinach-and-fetarex-wjzp-mediumThreeByTwo440.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Pork medellions",
+        "difficulty": "Advanced",
+        "min": 40,
+        "kcal": 150,
+        "category": "Meat",
+        "rating": "https://img.freepik.com/premium-vector/rating-stars-icon-review-productinternet-website-mobile-application_182604-63.jpg",
+        "image": "https://static01.nyt.com/images/2022/05/10/dining/sd-White-Bean-Primavera/merlin_206153154_937aac73-dbcb-4c72-af66-73fa0ece2f63-mediumThreeByTwo440.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Salad with row tuna",
+        "difficulty": "Advanced",
+        "min": 20,
+        "kcal": 500,
+        "category": "Fish",
+        "rating": "https://img.freepik.com/premium-vector/rating-stars-icon-review-productinternet-website-mobile-application_182604-63.jpg",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Corndogs-7832ef6.jpg?quality=90&resize=556,505"
+      }
+    ]
+  }
+  
