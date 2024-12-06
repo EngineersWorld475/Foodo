@@ -1,7 +1,7 @@
 # Recipe Application
 A modern and responsive recipe application.
 ## Table of Contents
-### About the Project
+#### About the Project
 #### Features
 #### Technologies Used
 #### Setup and Installation
@@ -50,6 +50,3 @@ A modern and responsive recipe application.
 #### Sidebar Navigation: Switch between different sections of the app.
 #### Responsive Design: Use the app on any device without layout issues.
 
-bash
-Copy code
-npm run dev
