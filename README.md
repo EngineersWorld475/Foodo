@@ -28,7 +28,7 @@ A modern and responsive recipe application.
 ### Prerequisites
 #### Node.js installed on your system
 
-#### Installation
+## Installation
 #### Clone the repository:
 ##### git clone https://github.com/your-username/foodo.git
 ##### cd foodo-app
