@@ -19,7 +19,7 @@ A modern and responsive recipe application.
 
 ## Technologies Used
 #### Frontend: React (Vite)
-#### Backend: JSON Server (Mock Server)
+#### Backend: Mock Server
 #### Design: Tailwind CSS, Google Fonts
 
 ## Setup and Installation
@@ -36,9 +36,6 @@ A modern and responsive recipe application.
 #### Install dependencies:
 ##### npm install
 
-#### Set up the mock server:
-#### Start JSON Server to serve the recipe data:
-##### npm run start:server
 #### Run the application:
 ##### npm run dev
 #### Access the app in your browser:
