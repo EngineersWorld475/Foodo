@@ -3,8 +3,9 @@ import FoodCard from './FoodCard';
 import useFetchFoodItems from '../hooks/useFetchFoodItems';
 
 const Recipes = () => {
-  const { data: foodItems, loading, error } = useFetchFoodItems('http://localhost:5000/recipes');
-
+  const { data: foodItems, loading, error } = useFetchFoodItems('/db.json');
+  console.log('......', foodItems)
+  
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -49,7 +50,7 @@ const Recipes = () => {
 
       {/* setting grid for each food item */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-10">
-        {foodItems.map((item) => (
+        {foodItems.recipes.map((item) => (
           <FoodCard key={item.id} food={item} />
         ))}
       </div>

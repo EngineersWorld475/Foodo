@@ -12,18 +12,21 @@ const RecipeDetails = () => {
         try {
             setLoading(true);
             setError(null);
-            const recipeId = Number(id);
-            if (isNaN(recipeId)) {
-                throw new Error('Invalid recipe ID');
-            }
 
-            const res = await fetch(`http://localhost:5000/recipes/${recipeId}`);
+            const res = await fetch('/db.json'); 
             if (!res.ok) {
                 throw new Error(`Failed to fetch: ${res.statusText}`);
             }
 
-            const data = await res.json();
-            setDetails(data); 
+            const data = await res.json(); 
+            const recipeId = Number(id); 
+            const recipeDetails = data.recipes.find((recipe) => recipe.id === recipeId);
+
+            if (!recipeDetails) {
+                throw new Error('Recipe not found');
+            }
+
+            setDetails(recipeDetails); 
         } catch (error) {
             setError(error.message);
         } finally {
