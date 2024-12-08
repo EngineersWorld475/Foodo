@@ -4,7 +4,6 @@ import useFetchFoodItems from '../hooks/useFetchFoodItems';
 
 const Recipes = () => {
   const { data: foodItems, loading, error } = useFetchFoodItems('/db.json');
-  console.log('......', foodItems)
   
   if (loading) {
     return <div>Loading...</div>;
