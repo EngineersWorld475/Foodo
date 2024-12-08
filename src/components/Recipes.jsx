@@ -3,7 +3,7 @@ import FoodCard from './FoodCard';
 import useFetchFoodItems from '../hooks/useFetchFoodItems';
 
 const Recipes = () => {
-  const { data: foodItems, loading, error } = useFetchFoodItems('http://localhost:5000/recipes');
+  const { data: foodItems, loading, error } = useFetchFoodItems('https://foodo-lmk8-gjmsbs1o0-sanjay-g-nairs-projects.vercel.app/api/recipes');
 
   if (loading) {
     return <div>Loading...</div>;
