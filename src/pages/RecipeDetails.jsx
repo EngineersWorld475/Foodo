@@ -17,7 +17,7 @@ const RecipeDetails = () => {
                 throw new Error('Invalid recipe ID');
             }
 
-            const res = await fetch(`https://foodo-lmk8-gjmsbs1o0-sanjay-g-nairs-projects.vercel.app/api/recipes/${recipeId}`);
+            const res = await fetch(`http://localhost:5000/recipes/${recipeId}`);
             if (!res.ok) {
                 throw new Error(`Failed to fetch: ${res.statusText}`);
             }
